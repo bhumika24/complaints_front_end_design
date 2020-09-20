@@ -1,0 +1,93 @@
+<html>
+<head>
+    <title>Registration</title>
+<style>
+form {
+    margin-left:32%;
+    border-radius:3ex;
+    }
+
+
+input[type=text], select {
+  width: 55%;
+  height: 5%;  
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color:darkblue;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 30%;
+    margin-left:20%;
+    margin-top: 20px
+}
+
+button:hover {
+  opacity: 0.8;
+}
+.container {
+  padding: 16px;
+    margin-top: 60px;
+    margin-right:30px;
+    
+}
+</style>
+</head>
+<body style="background-image:url('body.jpg')">
+   
+    <img src="logo.png" style="height: 140px;width:200px;float:left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+    
+    
+<form > 
+<div style="background-color:whitesmoke;height:auto; border-radius: 4ex; width:450px;margin-right:60%;">
+   
+  
+  <div class="container" align="center">
+     
+
+       <h3> Registration Form</h3>
+              
+              
+              <label for="fname" style="margin-left:50px;"><b>FirstName</b></label> &nbsp;&nbsp;
+              <input type="text" name="fname" id="fname" required><br>
+
+              <label for="lname" style="margin-left:60px;"><b>LastName</b></label> &nbsp;&nbsp;
+              <input type="text" name="lname" id="lname" required><br>
+              
+              <label for="email" style="margin-left:80px;"><b>Email</b></label> &nbsp;&nbsp;&nbsp;
+              <input type="text" name="email" id="email" required><br>
+
+              <label for="mno" style="margin-left:50px;"><b>Mobile No</b></label> &nbsp;&nbsp;
+              <input type="text" name="mno" id="mno" required><br>
+              
+               <label for="adhr"style="margin-left:50px;"><b>Adhar No</b></label> &nbsp;&nbsp;
+               <input type="text"  name="adhr" id="adhr" required><br>
+               
+               <label for="pass" style="margin-left:60px;"><b>Password</b></label> &nbsp;&nbsp;
+               <input type="text"  name="pass" id="pass" required ><br>
+      
+                <label for="rpass" style="margin-left:15px;"><b>Retype Password</b></label> &nbsp;&nbsp;
+               <input type="text"  name="rpass" id="rpass" required ><br>
+      
+               <button type="submit" onclick="document.location='otp.html'" class="registerbtn" style="background-color:black;color:white;align:center;">Register</button>
+      
+      
+         </form>
+    
+        </div>   
+    </div>
+
+
+    </body>
+    
+</html>

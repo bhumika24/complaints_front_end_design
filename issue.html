@@ -1,0 +1,83 @@
+<html>
+<head>
+    <title>Issue-Form</title>
+<style>
+form {
+    margin-left:32%;
+    border-radius:1em;
+    background-color:whitesmoke;height:auto; border-radius: 4ex; width:450px;margin-right:60%;height: 230px;
+    }
+
+
+input[type=text], select {
+  width: 55%;
+  height: 5%;  
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+   background-color: black;
+   color:white;
+}
+
+button {
+ 
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 30%;
+    margin-left:16%;
+    margin-top: 20px
+}
+
+button:hover {
+  opacity: 0.8;
+}
+.container {
+  padding: 16px;
+    margin-top: 50px;
+    margin-right:30px;
+    
+}
+</style>
+</head>
+<body style="background-image:url('body.jpg')">
+   
+    <img src="logo.png" style="height: 140px;width:250px;float:left;"><br>
+    
+      <h1 style="text-align: center;color:white;margin-top: 10%;">New Issue Form</h1>
+<form > 
+<div>
+   
+  
+  <div class="container" align="center">
+     
+
+              <label for="issue" style="margin-left:60px;"><b>Issue Name</b></label> &nbsp;&nbsp;
+              <input type="text" name="issue" id="issue" required><br>
+
+              <label for="desc" style="margin-left:60px;"><b>Description</b></label> &nbsp;&nbsp;
+              <input type="text" name="desc" id="desc" required><br>
+              
+              <label for="add" style="margin-left:80px;"><b>Address</b></label> &nbsp;&nbsp;&nbsp;
+              <input type="text" name="add" id="add" required><br>
+
+             
+                <label for="upload" style="margin-left:40px;"><b>Upload</b></label>
+               <button type="submit" onclick="document.location='#'" class="upload" style="background-color:black;color:white;">Upload FILE</button>
+      
+      
+         </form>
+    <div>
+    <button type="button" style="color:black;background-color:black;margin-top:60px;color:white ;"onclick="document.location='back.html'">Raise</button>
+        </div>   
+    </div>
+
+
+    </body>
+    
+</html>
